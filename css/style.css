@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #FEFBF6;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-links li, a {
+    font-weight: 500;
+    font-size: 16px;
+    color: #2C3333;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-links li a:hover {
+    color: #E2DCC8;
+    text-decoration: underline;
+}
+
+/* Main */
+
+main {
+    align-items: center;
+    padding: 10px 10%;
+}
+
+.Ebook {
+    margin: 30px 0 30px 0;
+}
+
+.Category-title a{
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.displayed-bestsellers li {
+    display: inline;
+}
+
+.displayed-bestsellers li img {
+    width: 168px;
+    height: 254px;
+}
+
+.displayed-ebooks li {
+    display: inline;
+}
+
+.displayed-ebooks li img {
+    width: 168px;
+    height: 254px;
+}
+
+.displayed-audiobooks li {
+    display: inline;
+}
+
+.displayed-audiobooks li img {
+    width: 168px;
+    height: 168px;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-list li, a {
+    font-weight: 500;
+    font-size: 16px;
+    color: #2C3333;
+    text-decoration: none;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-list li {
+    display: inline-block;
+    padding: 0 80px;
+}
+
+.footer-list li a:hover {
+    color: #E2DCC8;
+    text-decoration: underline;
+}
+
+/* Breadcrumb */
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: #2C3333;
+    content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    color: #E2DCC8;
+    text-decoration: underline;
+}
+
+.book-detail-image {
+    margin: 30px 0 30px 0;
+    list-style: none;
+}
+
+.book-detail-image li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.big-image img {
+    width: 300px;
+    height: 467px;
+}
+
+.small-image img {
+    width: 130px;
+    height: 130px;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.price-cart h1 {
+    font-style: italic;
+}
+
+button {
+    background-color: #bdc3c7; 
+    border: #95a5a6;
+    color: #2C3333;
+    margin: 20px 0 20px 0;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.book-info {
+    margin: 50px 0 50px 0;
+}
+
+.book-name {
+    font-style: normal;
+    font-weight: 100;
+}
+
+.book-description {
+    font-style: italic;
+    font-weight: 100;
+}
+
+/* Contact Us */
+
+.contact-page div {
+    margin: 20px 0 20px 0;
+}
+
+.contact-form p {
+    font-weight: 100;
+    font-style: italic;
+}
+
+.contact-header h1{
+    font-style: italic;
+    font-weight: 400;
+}
+
+.personal-info input{
+    width: 30%;
+}
+
+.personal-info label{
+    font-weight: 100;
+    font-style: italic;
+}
+
+textarea {
+    width: 30%;
+}
