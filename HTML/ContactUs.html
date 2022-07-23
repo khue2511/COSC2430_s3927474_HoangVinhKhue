@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zen Bookstore</title>
+    <link rel="stylesheet" href="../css/style.css"/>
+</head>
+
+<body>
+    <!--Page Header-->
+    <header>
+        <div class="logo">Zen Bookstore</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="./index.html">Home Page</a></li>
+                <li><a href="./CategoryPage.html">Best Sellers</a></li>
+                <li><a href="./CategoryPage.html">Ebook</a></li>
+                <li><a href="./CategoryPage.html">Audiobook</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Main Content -->
+    <main class="contact-page">
+
+        <div class="contact-header">
+            <h1>Contact Us</h1>
+        </div>
+
+        <form action="" class="contact-form">
+
+            <div class="contact-purpose">
+                <select>
+                    <option>Contact Purpose</option>
+                    <option>I want to buy books</option>
+                    <option>i want to sell books</option>
+                </select>
+            </div>
+
+            <div class="personal-info">
+                <div>
+                    <label for="name">Your Name: </label><br>
+                    <input type="text" id="name" name="name" value="">
+                </div>
+
+                <div>
+                    <label for="email">Your Email: </label><br>
+                    <input type="email" id="email" name="lname" value="">
+                </div>
+
+                <div>
+                    <label for="phone">Your Phone Number: </label><br>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+                </div>
+            </div>
+            
+
+            <div>
+                <p>How can we contact you:</p>
+                <input type="checkbox" id="email" name="email">
+                <label for="email">By email</label><br>
+                <input type="checkbox" id="phone" name="phone">
+                <label for="phone">By phone</label><br>
+            </div>
+
+            <div>
+                <p>Do you want to receive our weekly newsletter:</p>
+                <input type="radio" name="user-option" id="yes" value="Yes" checked="checked">
+                <label for="yes">Yes</label>
+                <input type="radio" name="user-option" id="no" value="No">
+                <label for="no">No</label>
+            </div>
+
+            <div>
+                <textarea id="note" name="note" rows="4" cols="50">Important Notes?</textarea>
+            </div>
+
+            <div>
+                <button type="submit" value="Submit">Submit</button>
+                <button type="reset" value="Reset">Reset</button>
+            </div>
+        </form>
+    
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <ul class="footer-list">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Copyright</a></li>
+            <li><a href="./ContactUs.html">Contact Us</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
